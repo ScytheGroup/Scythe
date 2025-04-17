@@ -1,0 +1,13 @@
+diff --git a/Inc/DirectXMath.h b/Inc/DirectXMath.h
+index dc9f565..d912e25 100644
+--- a/Inc/DirectXMath.h
++++ b/Inc/DirectXMath.h
+@@ -2003,7 +2003,7 @@ namespace DirectX
+ #if defined(__GNUC__) && !defined(__MINGW32__)
+ #define XMGLOBALCONST extern const __attribute__((weak))
+ #else
+-#define XMGLOBALCONST extern const __declspec(selectany)
++#define XMGLOBALCONST static constexpr inline
+ #endif
+ #endif
+ 

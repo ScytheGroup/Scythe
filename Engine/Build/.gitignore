@@ -1,0 +1,55 @@
+# Python
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+*.so
+
+# Environments
+.env
+.venv/
+env/
+venv/
+ENV/
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# Packages
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Others
+.DS_Store
+*.zip
+*.tar.gz
+
+*.zip
+*.rar
+*.gz
+*.tar
+*fbuild*
+*fbuildworker*
+**/FastBuild/*LICENSE*
+
+project.scythe
+
+**/bin/**
+
+*.ixx
+Engine/Build/StlModules/modules.json
+*.vcxproj*
+ThirdParty/vcpkg/tmp/
+ThirdParty/vcpkg/extern/
+
+# make an exception for the following files
+# vcpkg.zip
+!ThirdParty/vcpkg/extern/vcpkg.zip

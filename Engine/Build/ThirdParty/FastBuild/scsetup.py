@@ -2,9 +2,11 @@
 import os
 from helpers import *
 
-windows_address = "https://www.fastbuild.org/downloads/v1.12/FASTBuild-Windows-x64-v1.12.zip"
-linux_address = "https://www.fastbuild.org/downloads/v1.12/FASTBuild-Linux-x64-v1.12.zip"
-osx_address = "https://www.fastbuild.org/downloads/v1.12/FASTBuild-OSX-x64+ARM-v1.12.zip"
+version = "1.14"
+
+windows_address = f"https://www.fastbuild.org/downloads/v{version}/FASTBuild-Windows-x64-v{version}.zip"
+linux_address = f"https://www.fastbuild.org/downloads/v{version}/FASTBuild-Linux-x64-v{version}.zip"
+osx_address = f"https://www.fastbuild.org/downloads/v{version}/FASTBuild-OSX-x64+ARM-v{version}.zip"
 
 
 def main() :

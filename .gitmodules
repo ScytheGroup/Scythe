@@ -1,0 +1,9 @@
+[submodule "Engine/Build/ThirdParty/Sharpmake/Sharpmake"]
+	path = Engine/Build/ThirdParty/Sharpmake/Sharpmake
+	url = https://github.com/MartinDew/Sharpmake.git
+[submodule "Engine/Source/ThirdParty/ImGuizmo"]
+	path = Engine/Source/ThirdParty/ImGuizmo
+	url = https://github.com/CedricGuillemet/ImGuizmo.git
+[submodule "Engine/Source/ThirdParty/JoltPhysics"]
+	path = Engine/Source/ThirdParty/JoltPhysics
+	url = https://github.com/jrouwe/JoltPhysics.git

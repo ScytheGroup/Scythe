@@ -1,0 +1,5 @@
+{
+  "$schema": "https://raw.githubusercontent.com/microsoft/vcpkg-tool/main/docs/vcpkg.schema.json",
+  "dependencies": ["assimp", "magic-enum", "nativefiledialog-extended"],
+  "supports": "(static) & (windows | linux) & (x64 | arm64)"
+}

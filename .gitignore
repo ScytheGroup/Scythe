@@ -1,39 +1,32 @@
-# Python
-*.pyc
-*.pyo
-*.pyd
-__pycache__/
-*.so
+**/Intermediate/
+**/Binaries/
 
-# Environments
-.env
-.venv/
-env/
-venv/
-ENV/
-
-# IDEs
+Engine-globalsettings.bff
 .idea/
-.vscode/
-*.swp
-*.swo
+*.pdb
+*.dll
+*.lib
+*.exp
+*.exe
+*.so
+*.bff
+*.ifc
+*.fdb
+*std.*
+*_All.vcxproj
+*.sln
+*DotSettings.user
+.vs/
+compile_commands.json
 
-# Logs
-*.log
+# Ignore files used when running build_tool with -hidevsfiles=false
+Engine/Source/Scythe.vcxproj
+Engine/Source/Scythe.vcxproj.filters
+Engine/Source/compile_commands.json
 
-# Packages
-*.egg-info/
-dist/
-build/
-*.egg
+*runtimedependencies.txt
+*imgui.ini
 
-# Others
-.DS_Store
-*.zip
-*.tar.gz
-
-*.zip
-*.rar
-*.gz
-*.tar
-*fbuild
+# Ignore DXTK built compiled shaders
+Engine/Source/ThirdParty/DirectXTK/Src/Shaders/Compiled/*
+Engine/Source/ThirdParty/DirectXTex/Shaders/Compiled/*

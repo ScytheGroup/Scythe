@@ -1,0 +1,707 @@
+{
+    "entities": [
+        {
+            "CameraComponent": {
+                "isActiveCamera": true,
+                "projection": {
+                    "FOV": 60.0,
+                    "aspectRatio": 1.2066028118133545,
+                    "farPlane": 900000.0,
+                    "nearPlane": 1.0,
+                    "type": 0
+                }
+            },
+            "GlobalTransform": null,
+            "ParentComponent": {
+                "parentId": "f35f4525-f281-d61e-1923-779cb3a6cea5"
+            },
+            "TransformComponent": {
+                "transform": {
+                    "position": [
+                        0.0,
+                        -0.3124351501464844,
+                        5.625425338745117
+                    ],
+                    "rotation": [
+                        0.027737759053707123,
+                        0.0,
+                        0.0,
+                        0.9996152520179749
+                    ],
+                    "scale": [
+                        0.999999463558197,
+                        0.9999850392341614,
+                        0.9999850392341614
+                    ]
+                }
+            },
+            "guid": "2fd120e2-64de-210a-8f85-2b793e7fb3da",
+            "name": "Game Camera"
+        },
+        {
+            "GlobalTransform": null,
+            "RigidBodyComponent": {
+                "bodySettings": {
+                    "degreesOfFreedom": 63,
+                    "friction": 0.20000000298023224,
+                    "mass": 0.0,
+                    "motionQuality": 0,
+                    "restitution": 0.0
+                },
+                "layer": 0,
+                "motionType": 0
+            },
+            "TestComponent": {
+                "colorTest": [
+                    0.0,
+                    0.0,
+                    0.0,
+                    1.0
+                ],
+                "floatTest": 10.0,
+                "materialTest": "",
+                "meshTest": "",
+                "textureTest": "",
+                "uint32Test": 8,
+                "vector3Test": [
+                    0.0,
+                    0.0,
+                    0.0
+                ]
+            },
+            "TransformComponent": {
+                "transform": {
+                    "position": [
+                        -42.74692916870117,
+                        12.039881706237793,
+                        21.181596755981445
+                    ],
+                    "rotation": [
+                        -4.2546902112583496e-10,
+                        5.539553815658849e-10,
+                        -0.00889836810529232,
+                        0.9999604225158691
+                    ],
+                    "scale": [
+                        0.9999528527259827,
+                        0.9999528527259827,
+                        1.0
+                    ]
+                }
+            },
+            "guid": "c136ddac-bb4b-d2d8-8ff6-82cc42581db2",
+            "name": "Composed Shape"
+        },
+        {
+            "CollisionShapeComponent": {
+                "BoxShape": {
+                    "convexRadius": 0.05000000074505806,
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                }
+            },
+            "GlobalTransform": null,
+            "MeshComponent": {
+                "isFrustumCulled": true,
+                "isVisible": true,
+                "materialOverrides": {},
+                "mesh": "Cube"
+            },
+            "ParentComponent": {
+                "parentId": "c136ddac-bb4b-d2d8-8ff6-82cc42581db2"
+            },
+            "TransformComponent": {
+                "transform": {
+                    "position": [
+                        -0.45560169219970703,
+                        18.376527786254883,
+                        0.0009887138148769736
+                    ],
+                    "rotation": [
+                        -1.0853878906758041e-10,
+                        -5.570611680272286e-11,
+                        -0.08661165088415146,
+                        0.9962421655654907
+                    ],
+                    "scale": [
+                        20.0078125,
+                        0.10003911703824997,
+                        20.0
+                    ]
+                }
+            },
+            "guid": "5c48e6ec-b07a-7b98-1dce-29b999cc2663",
+            "name": "Bottom"
+        },
+        {
+            "CollisionShapeComponent": {
+                "BoxShape": {
+                    "convexRadius": 0.05000000074505806,
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                }
+            },
+            "GlobalTransform": null,
+            "MeshComponent": {
+                "isFrustumCulled": true,
+                "isVisible": true,
+                "materialOverrides": {},
+                "mesh": "Cube"
+            },
+            "ParentComponent": {
+                "parentId": "c136ddac-bb4b-d2d8-8ff6-82cc42581db2"
+            },
+            "TransformComponent": {
+                "transform": {
+                    "position": [
+                        -17.479063034057617,
+                        22.727828979492188,
+                        -1.4313161955215037e-05
+                    ],
+                    "rotation": [
+                        7.080958597249776e-10,
+                        3.449325269855308e-10,
+                        0.5638191103935242,
+                        0.8258983492851257
+                    ],
+                    "scale": [
+                        0.1000455692410469,
+                        20.00908851623535,
+                        20.0
+                    ]
+                }
+            },
+            "guid": "6cf0ba97-a262-91fb-037f-2baf635bf289",
+            "name": "WallLeft"
+        },
+        {
+            "CollisionShapeComponent": {
+                "SphereShape": {
+                    "radius": 0.5
+                }
+            },
+            "GlobalTransform": null,
+            "MeshComponent": {
+                "isFrustumCulled": true,
+                "isVisible": true,
+                "materialOverrides": {},
+                "mesh": "Sphere"
+            },
+            "RigidBodyComponent": {
+                "bodySettings": {
+                    "degreesOfFreedom": 63,
+                    "friction": 0.20000000298023224,
+                    "mass": 0.0,
+                    "motionQuality": 0,
+                    "restitution": 0.0
+                },
+                "layer": 0,
+                "motionType": 0
+            },
+            "RocketComponent": {
+                "controlRocket": false,
+                "desiredSpeed": 50000.0
+            },
+            "TransformComponent": {
+                "transform": {
+                    "position": [
+                        -43.428993225097656,
+                        35.03938674926758,
+                        23.89371109008789
+                    ],
+                    "rotation": [
+                        1.0336864697535475e-08,
+                        0.720276951789856,
+                        1.0732912336663958e-08,
+                        0.6936866044998169
+                    ],
+                    "scale": [
+                        1.000002384185791,
+                        1.0,
+                        2.000004768371582
+                    ]
+                }
+            },
+            "guid": "f0fb34fc-438a-96dc-7432-00b2b3d9f129",
+            "name": "Ship"
+        },
+        {
+            "CollisionShapeComponent": {
+                "BoxShape": {
+                    "convexRadius": 0.05000000074505806,
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                }
+            },
+            "GlobalTransform": null,
+            "MeshComponent": {
+                "isFrustumCulled": true,
+                "isVisible": true,
+                "materialOverrides": {},
+                "mesh": "Cube"
+            },
+            "ParentComponent": {
+                "parentId": "c136ddac-bb4b-d2d8-8ff6-82cc42581db2"
+            },
+            "TransformComponent": {
+                "transform": {
+                    "position": [
+                        18.50390625,
+                        14.57437515258789,
+                        -3.782542080443818e-06
+                    ],
+                    "rotation": [
+                        7.879435992563799e-10,
+                        3.8382833023042906e-10,
+                        0.6273950338363647,
+                        0.77870112657547
+                    ],
+                    "scale": [
+                        0.10000069439411163,
+                        20.00011444091797,
+                        20.0
+                    ]
+                }
+            },
+            "guid": "916b9a0f-7724-3e93-1dc3-929ec92c960d",
+            "name": "WallRight"
+        },
+        {
+            "CollisionShapeComponent": {
+                "BoxShape": {
+                    "convexRadius": 0.05000000074505806,
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                }
+            },
+            "GlobalTransform": null,
+            "MeshComponent": {
+                "isFrustumCulled": true,
+                "isVisible": true,
+                "materialOverrides": {},
+                "mesh": "Cube"
+            },
+            "ParentComponent": {
+                "parentId": "916b9a0f-7724-3e93-1dc3-929ec92c960d"
+            },
+            "TransformComponent": {
+                "transform": {
+                    "position": [
+                        52.84156799316406,
+                        -0.7756555676460266,
+                        0.007549382280558348
+                    ],
+                    "rotation": [
+                        -0.42300131916999817,
+                        0.44549742341041565,
+                        -0.34102511405944824,
+                        0.7115503549575806
+                    ],
+                    "scale": [
+                        317.77978515625,
+                        0.05351456627249718,
+                        1.1890438795089722
+                    ]
+                }
+            },
+            "guid": "01a9ddc3-ceac-b25b-613a-b87a1ff3d2f9",
+            "name": "WallBack"
+        },
+        {
+            "CollisionShapeComponent": {
+                "BoxShape": {
+                    "convexRadius": 0.05000000074505806,
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                }
+            },
+            "GlobalTransform": null,
+            "MeshComponent": {
+                "isFrustumCulled": true,
+                "isVisible": true,
+                "materialOverrides": {},
+                "mesh": "Cube"
+            },
+            "ParentComponent": {
+                "parentId": "c136ddac-bb4b-d2d8-8ff6-82cc42581db2"
+            },
+            "TransformComponent": {
+                "transform": {
+                    "position": [
+                        -0.00022041347983758897,
+                        15.389554977416992,
+                        9.651663780212402
+                    ],
+                    "rotation": [
+                        0.0,
+                        0.0,
+                        0.0,
+                        1.0
+                    ],
+                    "scale": [
+                        100.00665283203125,
+                        20.001663208007813,
+                        0.30000001192092896
+                    ]
+                }
+            },
+            "guid": "1bb73fa1-6956-d319-8d17-b96fc11ad70a",
+            "name": "WallFront"
+        },
+        {
+            "CollisionTriggerComponent": {
+                "BoxShape": {
+                    "convexRadius": 0.05000000074505806,
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        1.100000023841858
+                    ]
+                }
+            },
+            "GlobalTransform": null,
+            "MeshComponent": {
+                "isFrustumCulled": true,
+                "isVisible": true,
+                "materialOverrides": {},
+                "mesh": "Sphere"
+            },
+            "TransformComponent": {
+                "transform": {
+                    "position": [
+                        -42.090843200683594,
+                        60.21993637084961,
+                        24.875732421875
+                    ],
+                    "rotation": [
+                        0.7071068286895752,
+                        0.0,
+                        0.0,
+                        0.7071068286895752
+                    ],
+                    "scale": [
+                        99.99999237060547,
+                        100.0018539428711,
+                        1.0000145435333252
+                    ]
+                }
+            },
+            "guid": "86099dba-50c3-0126-fec3-68e6be0f1723",
+            "name": "Entity 9"
+        },
+        {
+            "CollisionShapeComponent": {
+                "BoxShape": {
+                    "convexRadius": 0.05000000074505806,
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                }
+            },
+            "GlobalTransform": null,
+            "MeshComponent": {
+                "isFrustumCulled": true,
+                "isVisible": false,
+                "materialOverrides": {},
+                "mesh": "Cube"
+            },
+            "RigidBodyComponent": {
+                "bodySettings": {
+                    "degreesOfFreedom": 63,
+                    "friction": 0.20000000298023224,
+                    "mass": 0.0,
+                    "motionQuality": 0,
+                    "restitution": 0.0
+                },
+                "layer": 0,
+                "motionType": 0
+            },
+            "TransformComponent": {
+                "transform": {
+                    "position": [
+                        0.0,
+                        123.0,
+                        0.0
+                    ],
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        -0.0,
+                        1.0
+                    ],
+                    "scale": [
+                        10.0,
+                        10.0,
+                        10.0
+                    ]
+                }
+            },
+            "guid": "a1076489-0d4a-12f8-ba16-1ab08d59ef13",
+            "name": "target"
+        },
+        {
+            "CollisionShapeComponent": {
+                "BoxShape": {
+                    "convexRadius": 0.05000000074505806,
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                }
+            },
+            "GlobalTransform": null,
+            "MeshComponent": {
+                "isFrustumCulled": true,
+                "isVisible": false,
+                "materialOverrides": {},
+                "mesh": "Cube"
+            },
+            "RigidBodyComponent": {
+                "bodySettings": {
+                    "degreesOfFreedom": 63,
+                    "friction": 0.20000000298023224,
+                    "mass": 0.0,
+                    "motionQuality": 0,
+                    "restitution": 0.0
+                },
+                "layer": 0,
+                "motionType": 0
+            },
+            "TransformComponent": {
+                "transform": {
+                    "position": [
+                        0.0,
+                        122.59691619873047,
+                        -16.589704513549805
+                    ],
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        -0.0,
+                        1.0
+                    ],
+                    "scale": [
+                        10.0,
+                        10.0,
+                        10.0
+                    ]
+                }
+            },
+            "guid": "81b01c9b-c119-fc77-f159-99f03ae00795",
+            "name": "Target 2"
+        },
+        {
+            "CharacterControllerComponent": {
+                "settings": {
+                    "mass": 70.0,
+                    "maxStrength": 100.0,
+                    "shapeOffset": [
+                        0.0,
+                        0.0,
+                        0.0
+                    ]
+                }
+            },
+            "CollisionShapeComponent": {
+                "BoxShape": {
+                    "convexRadius": 0.05000000074505806,
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                }
+            },
+            "GlobalTransform": null,
+            "MeshComponent": {
+                "isFrustumCulled": true,
+                "isVisible": true,
+                "materialOverrides": {},
+                "mesh": "Cube"
+            },
+            "TransformComponent": {
+                "transform": {
+                    "position": [
+                        -46.378604888916016,
+                        79.34231567382813,
+                        23.851882934570313
+                    ],
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        -0.0,
+                        1.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                }
+            },
+            "guid": "f35f4525-f281-d61e-1923-779cb3a6cea5",
+            "name": "character"
+        },
+        {
+            "CollisionShapeComponent": {
+                "BoxShape": {
+                    "convexRadius": 0.05000000074505806,
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                }
+            },
+            "GlobalTransform": null,
+            "MeshComponent": {
+                "isFrustumCulled": true,
+                "isVisible": true,
+                "materialOverrides": {},
+                "mesh": "Cube"
+            },
+            "RigidBodyComponent": {
+                "bodySettings": {
+                    "degreesOfFreedom": 63,
+                    "friction": 0.20000000298023224,
+                    "mass": 0.0,
+                    "motionQuality": 0,
+                    "restitution": 0.0
+                },
+                "layer": 0,
+                "motionType": 0
+            },
+            "TransformComponent": {
+                "transform": {
+                    "position": [
+                        -42.0,
+                        33.9285888671875,
+                        21.5
+                    ],
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        -0.0,
+                        1.0
+                    ],
+                    "scale": [
+                        14.5,
+                        1.0,
+                        14.100000381469727
+                    ]
+                }
+            },
+            "guid": "7e97a626-f714-71ca-9b41-dbc60f8c2570",
+            "name": "Platform"
+        },
+        {
+            "CollisionShapeComponent": {
+                "BoxShape": {
+                    "convexRadius": 0.05000000074505806,
+                    "halfExtents": [
+                        0.5,
+                        0.5,
+                        0.5
+                    ]
+                }
+            },
+            "GlobalTransform": null,
+            "MeshComponent": {
+                "isFrustumCulled": true,
+                "isVisible": true,
+                "materialOverrides": {},
+                "mesh": "Cube"
+            },
+            "RigidBodyComponent": {
+                "bodySettings": {
+                    "degreesOfFreedom": 63,
+                    "friction": 0.20000000298023224,
+                    "mass": 0.0,
+                    "motionQuality": 0,
+                    "restitution": 0.0
+                },
+                "layer": 1,
+                "motionType": 2
+            },
+            "TransformComponent": {
+                "transform": {
+                    "position": [
+                        -46.08592987060547,
+                        38.354976654052734,
+                        23.659679412841797
+                    ],
+                    "rotation": [
+                        -0.0,
+                        0.0,
+                        -0.0,
+                        1.0
+                    ],
+                    "scale": [
+                        1.0,
+                        1.0,
+                        1.0
+                    ]
+                }
+            },
+            "guid": "b5d74850-c6f6-93fb-7f34-04d4fe8abc89",
+            "name": "Block"
+        }
+    ],
+    "sceneSettings": {
+        "graphics": {
+            "atmosphereSettings": {
+                "atmosphereIntensity": 4.0,
+                "groundAlbedo": [
+                    0.10000000149011612,
+                    0.10000000149011612,
+                    0.10000000149011612
+                ],
+                "mieScatteringDensity": 1.2000000476837158,
+                "rayleighScatteringDensity": 7.99399995803833
+            },
+            "customPostProcessPasses": {},
+            "directionalLight": {
+                "color": [
+                    1.0,
+                    1.0,
+                    1.0
+                ],
+                "direction": [
+                    -1.0,
+                    -1.0,
+                    -1.0
+                ],
+                "intensity": 5.0
+            },
+            "enableAtmosphere": true,
+            "enableVoxelGI": false,
+            "skyboxPath": "Resources/brown_photostudio_02_4k.hdr"
+        },
+        "physics": {
+            "gravity": [
+                0.0,
+                -9.8100004196167,
+                0.0
+            ]
+        },
+        "worldName": "Default World"
+    }
+}

@@ -1,0 +1,5 @@
+*.scythe
+*.generated.ixx
+output.txt
+Source/Reflection/Generated/
+Source/Reflection/Generated.ixx

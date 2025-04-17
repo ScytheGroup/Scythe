@@ -1,0 +1,3 @@
+module;
+
+module Graphics:InputLayout;

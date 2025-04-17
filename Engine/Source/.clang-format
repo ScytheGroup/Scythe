@@ -1,0 +1,58 @@
+---
+Language: Cpp
+BasedOnStyle: Microsoft
+AccessModifierOffset: -4
+AlignConsecutiveAssignments: None
+AllowShortIfStatementsOnASingleLine: Never
+AlignConsecutiveDeclarations: None
+AlignOperands: true
+AlignTrailingComments: true
+AllowShortBlocksOnASingleLine: true
+AllowShortFunctionsOnASingleLine: InlineOnly
+BraceWrapping:
+    AfterCaseLabel: true
+    AfterClass: true
+    AfterControlStatement: true
+    AfterEnum: true
+    AfterFunction: true
+    AfterNamespace: true
+    AfterStruct: true
+    AfterUnion: true
+    AfterExternBlock: false
+    BeforeCatch: true
+    BeforeElse: true
+    BeforeLambdaBody: false
+    BeforeWhile: false
+    SplitEmptyFunction: false
+    SplitEmptyRecord: false
+    SplitEmptyNamespace: false
+BreakConstructorInitializers: BeforeComma
+ColumnLimit: 200
+ContinuationIndentWidth: 2
+Cpp11BracedListStyle: false
+IncludeCategories:
+    -   Regex: '^<.*'
+        Priority: 1
+    -   Regex: '^".*'
+        Priority: 2
+    -   Regex: '.*'
+        Priority: 3
+IncludeIsMainRegex: '([-_](test|unittest))?$'
+IndentCaseBlocks: false
+InsertNewlineAtEOF: true
+MacroBlockBegin: ''
+MacroBlockEnd: ''
+MaxEmptyLinesToKeep: 1
+CompactNamespaces: true
+PointerAlignment: Left
+SortIncludes: CaseInsensitive
+IncludeBlocks: Preserve
+AlignConsecutiveMacros:
+    Enabled: false
+BreakTemplateDeclarations: Yes
+Standard: Cpp20
+IndentWidth: 4
+TabWidth: 4
+UseTab: Never
+SpacesBeforeTrailingComments: 1
+...

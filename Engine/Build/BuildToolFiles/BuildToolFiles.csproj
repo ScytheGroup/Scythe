@@ -1,0 +1,73 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="..\..\..\Samples\Sandbox\Build\Sandbox.sharpmake.cs">
+      <Link>Sandbox.sharpmake.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Source\ThirdParty\BuildFiles\dxtex.sharpmake.cs">
+      <Link>BuildFiles\dxtex.sharpmake.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Source\ThirdParty\BuildFiles\dxtk.sharpmake.cs">
+      <Link>BuildFiles\dxtk.sharpmake.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Source\ThirdParty\BuildFiles\imguizmo.sharpmake.cs">
+      <Link>BuildFiles\imguizmo.sharpmake.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Source\ThirdParty\BuildFiles\Jolt.sharpmake.cs">
+      <Link>Jolt.sharpmake.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Source\ThirdParty\BuildFiles\nlohmann-json.sharpmake.cs">
+      <Link>BuildFiles\nlohmann-json.sharpmake.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Source\ThirdParty\BuildFiles\simdjson-cpp20.sharpmake.cs">
+      <Link>BuildFiles\simdjson-cpp20.sharpmake.cs</Link>
+    </Compile>
+    <Compile Include="..\..\Source\ThirdParty\DirectXMath\dxmath.sharpmake.cs">
+      <Link>dxmath.sharpmake.cs</Link>
+    </Compile>
+    <Compile Include="..\Scythe.sharpmake.cs">
+      <Link>Scythe.sharpmake.cs</Link>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Basic.Reference.Assemblies.Net60">
+      <HintPath>..\ThirdParty\Sharpmake\bin\Basic.Reference.Assemblies.Net60.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis">
+      <HintPath>..\ThirdParty\Sharpmake\bin\Microsoft.CodeAnalysis.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CodeAnalysis.CSharp">
+      <HintPath>..\ThirdParty\Sharpmake\bin\Microsoft.CodeAnalysis.CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.Setup.Configuration.Interop">
+      <HintPath>..\ThirdParty\Sharpmake\bin\Microsoft.VisualStudio.Setup.Configuration.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Sharpmake">
+      <HintPath>..\ThirdParty\Sharpmake\bin\Sharpmake.dll</HintPath>
+    </Reference>
+    <Reference Include="Sharpmake.Application">
+      <HintPath>..\ThirdParty\Sharpmake\bin\Sharpmake.Application.dll</HintPath>
+    </Reference>
+    <Reference Include="Sharpmake.CommonPlatforms">
+      <HintPath>..\ThirdParty\Sharpmake\bin\Sharpmake.CommonPlatforms.dll</HintPath>
+    </Reference>
+    <Reference Include="Sharpmake.Generators">
+      <HintPath>..\ThirdParty\Sharpmake\bin\Sharpmake.Generators.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Immutable">
+      <HintPath>..\ThirdParty\Sharpmake\bin\System.Collections.Immutable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Metadata">
+      <HintPath>..\ThirdParty\Sharpmake\bin\System.Reflection.Metadata.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
